@@ -1,9 +1,8 @@
 # En este archivo debes implementar la función
-
-def triangulo_simetrico(m: int, s: str) -> str:
-    if m <=0:
+    def triangulo_simetrico(m: int, s: str) -> str:
+     if m <=0:
         print("Error: La altura debe ser un entero positivo")
-        return
+    return
         
     # TODO: validar altura mayor que 0 e imprimir "Error: La altura debe ser un entero positivo" y salir
     
